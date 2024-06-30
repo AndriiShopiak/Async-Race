@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+svg {
+    max-width: 70px;
+    max-height: 70px;
+    position: relative;
+}
+body {
+    background: rgb(7, 130, 130);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+button {
+    cursor: pointer;
+    border: 2px solid #252323;
+    padding: 10px 15px;
+}
+/* greeting */
+.greeting {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.greeting_title {
+    font-size: 50px;
+    font-family: 'Cabin';
+    font-weight: 700;
+}
+.greeting__prescribe {
+    font-weight: 400;
+    font-size: 17px;
+}
+.greeting__start {
+    border: 2px solid #252323;
+    padding: 20px 40px;
+    background: #252323;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .6s ease;
+}
+.greeting__start:hover {
+    background: #353232;
+}
+/* main */
+.header {
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header__buttons {
+    padding: 20px 0;
+}
+.header__buttons__btn {
+    padding: 10px 15px;
+    border: 2px solid #252323;
+    color: #fff;
+    background-color: #438871;
+    border-radius: 10px;
+}
+.header__fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header__fields input {
+    border-radius: 10px;
+    border: 2px solid #252323;
+}
+.header__fields__create {
+}
+.create {
+}
+.create__name, .update__name {
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.create__name:focus, .update__name:focus {
+    outline: none;
+}
+.create__color {
+  
+}
+.create__btn,.update__btn {
+    background-color: #b44536;
+    border-radius: 10px;
+
+}
+.header__fields__update {
+}
+.update {
+}
+.update__name {
+}
+.update__color {
+}
+.update__btn {
+}
+.header__fields__option__buttons {
+}
+.option__buttons {
+}
+.option__buttons__btn {
+    background-color: aqua;
+    border-radius: 10px;
+}
+.race {
+}
+.app {
+    overflow: hidden;
+    max-height: 1276px;
+}
+.footer__btn {
+}
+.footer__btn__prew {
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.item_track {
+    border: 2px solid #353232;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.app_title {
+    color: #ffffff;
+    font-size: 17px;
+}
+.app div {
+    background: #554d43;
+}
+.btn_option_con button {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 3px 5px;
+    background: #438871;
+}
+.remove_car {
+    background: #b44536 !important; 
+}
+.car__line {
+    background: #000 !important;
+    height: 10px;
+    position: relative;
+    top: -25px;
+}
+.winners_con {
+    background: #252323;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.close_icon_con {
+    text-align: right;
+    padding: 20px 20px;
+}
+.winners_con_close_btn {
+    max-width: 70px;
+    cursor: pointer;
+}
+.winners_con__title {
+    text-align: center;
+    font-size: 45px;
+}
+.winners_con_head {
+    margin-top: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+.winners_con_body {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: #353232;
+}
+.active {
+    display: none !important;
+}
+.animation_race {
+    animation-name: startRace;
+    animation-duration: 2s;
+}
+.car__flag {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.finish_flag {
+    max-width: 72px;
+    position: relative;
+    bottom: 22px;
+    right: 90px;
+}
+@keyframes startRace {
+    from {
+        transform: translateX(0);
+      }
+    
+      to {
+        transform: translateX(80vw);
+      }
+}

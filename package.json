@@ -1,0 +1,22 @@
+{
+  "name": "andriishopiak-jsfe2023q4",
+  "version": "1.0.0",
+  "description": "Private repository for @andriishopiak\r Deploy: [Coffee-House](https://rolling-scopes-school.github.io/andriishopiak-JSFE2023Q4/coffee-house/index.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
